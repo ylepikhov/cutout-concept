@@ -1,5 +1,5 @@
 # cutout-concept
-"Cutout" templating system concept
+"Cutout" templating system concept.
 
 This project represents the first take on yet another logicless templating system named "Cutout".
 Main idea behind Cutout system, is to enable a programmer to program template logic in his favorite programming language.
