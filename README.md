@@ -103,4 +103,4 @@ Next, we "cut" it to parts and "mark" injection points.
 </html>
 ```
 
-After that we generate code in our favorite programming language.
+After that we generate code for our favorite programming language.
