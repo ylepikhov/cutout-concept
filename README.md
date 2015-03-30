@@ -47,7 +47,7 @@ Firstly, we takes template prototype, say, simple .html file.
 </html>
 ```
 
-Next, we "cut" it to parts and "mark" injection points.
+Next, we "cut" it to parts with {?cut-name} ... {/cut-name} and "mark" injection points with {mark-name}.
 
 ```
 <!DOCTYPE html>
