@@ -47,7 +47,7 @@ Firstly, we takes template prototype, say, simple .html file.
 </html>
 ```
 
-Next, we "cut" it to parts with {?cut-name} ... {/cut-name} and "mark" injection points with {mark-name}.
+Next, we "cut" it to parts and "mark" injection points.
 
 ```
 <!DOCTYPE html>
@@ -103,4 +103,8 @@ Next, we "cut" it to parts with {?cut-name} ... {/cut-name} and "mark" injection
 </html>
 ```
 
-After that we generate code for our favorite programming language.
+"Cut" syntax contains open and close tags, like {?head} and {/head} in example above. The "head" string in these tags defines a name of the "cut". Everything between "cut" tags is treated as nested template.
+
+"Mark" syntax contains one tag, like {title} in example above. The "title" string in this tag defines a name of the "mark".
+
+After that we generate code for target programming language.
