@@ -6,7 +6,7 @@ Main idea behind Cutout system, is to enable a programmer to program template lo
 
 Firstly, we takes template prototype, say, simple .html file.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -49,7 +49,7 @@ Firstly, we takes template prototype, say, simple .html file.
 
 Next, we "cut" it to parts and "mark" injection points.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
